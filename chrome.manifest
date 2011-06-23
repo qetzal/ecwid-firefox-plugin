@@ -1,0 +1,2 @@
+content     ecwid    chrome/content/
+overlay chrome://browser/content/browser.xul chrome://ecwid/content/ecwid.xul

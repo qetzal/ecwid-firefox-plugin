@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<overlay id="ecwid" 
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+   <script type="application/x-javascript" src="chrome://ecwid/content/ecwid.js" />
+ <menubar id="main-menubar">
+  <menu id="ecwid-menu" label="Ecwid" insertafter="helpMenu">
+    <menupopup id="ecwid-popup">
+      <menuitem label="Ecwid Control Panel" oncommand="ecwid_open_url('https://my.ecwid.com');" />
+      <menuitem label="Knowledge Base" oncommand="ecwid_open_url('http://kb.ecwid.com');" />
+      <menuitem label="BT" oncommand="ecwid_open_url('http://www.ecwid.com/bt/');" />
+      <menuitem label="Forum" oncommand="ecwid_open_url('http://www.ecwid.com/forums/');" />
+    </menupopup>
+  </menu>
+</menubar>
+</overlay>
